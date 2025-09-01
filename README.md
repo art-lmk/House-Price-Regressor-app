@@ -5,6 +5,12 @@
  3.  PTRATIO(Parent-Teacher ratio)
 - The only target variable being used is
 1. Median Value(MEDV)
+
+The assumptions that must be met for linear regression to be effective include:
+1. Linearity- The realtionship between the independent variable(s) and the dependent variable must be linear ( y= β₀ + β₁X₁ + ... + βₖXₖ + ε) If scatter plots detect a U-shaped curve,the assumption is violated.
+2. The observations must be independent of each other. The error for one data point must not be correlated with the error for another data point (mistakes are random and do not affect your future guesses)
+
+
 Multiple independent variables are used to predict the dependent variable. Therefore, the model used here is MulipleLinearRegression model. This model has been built and trained and can be accessed via the follwing link(https://af06480766b8.ngrok-free.app/)
 NB: If you clone this repository, you will have the code but will need to set up your own NGROK_TOKEN in your environment (e.g., in your own Colab secrets manager or as environment variables) for the code that uses those secrets to run successfully.
 
