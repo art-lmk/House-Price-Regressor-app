@@ -12,7 +12,7 @@ The assumptions that must be met for linear regression to be effective include:
 
 
 Multiple independent variables are used to predict the dependent variable. Therefore, the model used here is MulipleLinearRegression model. This model has been built and trained and can be accessed via the follwing link(https://af06480766b8.ngrok-free.app/)
-NB: If you clone this repository, you will have the code but will need to set up your own NGROK_TOKEN in your environment (e.g., in your own Colab secrets manager or as environment variables) for the code that uses those secrets to run successfully.
+NB: If you clone this repository, you will have the code but will need to set up your own NGROK_TOKEN in your environment (e.g., in your own Colab secrets manager or as environment variables) for the code that uses those secrets to run successfully. 
 
 
 This project addresses the problem of providing a quick and accessible estimate of a property's potential market value based on specific, measurable characteristics(average no.of rooms, pupil-teacher ratio,lower-status population).
